@@ -36,6 +36,7 @@ int main()
 	unsigned int nSeed = (unsigned int)tm;   //用当前时间点初始化随机种子，防止每次运行的结果都相同
 	srand(nSeed);
 
+
 	readFile(name); 
 	num = sqrt(view_cost.size());
 	cout << "num:" << num << endl;;
